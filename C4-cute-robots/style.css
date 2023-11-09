@@ -1,0 +1,52 @@
+
+#tile-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+    
+}
+
+.header-label {
+    background: rgba(255, 255, 255, 0.678); /* Semi-transparent white */
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 5px solid rgba(238, 131, 215, 0.5);
+}
+
+
+
+.tile {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 50px;
+   
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+    transition: all 0.2s ease-in-out;
+}
+.tile-image {
+    width: 100%;
+    
+    
+    object-fit: cover;
+}
+
+.tile-tittle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+#search-input{
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+
+}
+
